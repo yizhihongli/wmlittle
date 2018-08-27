@@ -1,0 +1,176 @@
+page-home {
+  .toolbar .segment-md {
+    float: left;
+  }
+  ion-segment {
+    width: 36%;
+  }
+  .segment-md .segment-button {
+    font-size: 1.5rem;
+    color: #488aff;
+  }
+  .row {
+    float: right;
+    width: 55%;
+  }
+  .col {
+    width: 20%;
+    max-width: 25%;
+  }
+  ion-slides {
+    width: 100%;
+    height: 150px;
+  }
+  .slide-image {
+    width: 100%;
+    height: 98%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aui-palace {
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .aui-palace-grid {
+    position: relative;
+    float: left;
+    padding: 5px 0;
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+  .aui-palace-grid-icon {
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+  }
+
+  .aui-palace-grid-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .aui-palace-grid-text {
+    display: block;
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-top: 0.1rem;
+  }
+
+  .aui-palace-grid-text h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #4a4a4a;
+    padding-top: 0.4rem;
+  }
+  h3{
+    margin: 0;
+    padding: 0;
+}
+
+.aui-well-item {
+    padding: 10px 10px 10px 0;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.aui-well-item-hd {
+    margin-right: .8em;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.aui-well-item-bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.aui-well-item-bd h3 {
+    color: #333;
+    font-size: 1.5rem;
+    position: relative;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+.aui-well-item-bd h3:before {
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 5px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: #ffc300;
+}
+
+.aui-well-item-fr {
+    font-size: 1.5rem;
+    text-align: right;
+    color: #717171;
+    padding-right: 13px;
+    position: relative;
+}
+
+.aui-well-item-fr:after {
+    content: " ";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-width: 2px 2px 0 0;
+    border-color: #808080;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: 2px;
+    border-radius: 2px;
+}
+
+.aui-well-item:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e2e2e2;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+
+}

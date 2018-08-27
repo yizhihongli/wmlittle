@@ -10,8 +10,9 @@ export class TabsPage {
 
   tab1Root = 'home';
   tab2Root = 'concern';
-  tab3Root = 'news';
-  tab4Root = 'me';
+  tab3Root = 'write';
+  tab4Root = 'news';
+  tab5Root = 'me';
 
   constructor() {
 
